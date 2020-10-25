@@ -1,4 +1,4 @@
-Treść zadania
+## Treść zadania
 Napisz program który wczyta plik "input.txt" i na jego podstawie wygeneruje plik wyjściowy "output.txt".
 
 Plik "input.txt" zawiera zapisane binarnie informacje o obiektach reprezentowanych przez 8 kolejnych bitów, składających się z 3 pól:
@@ -27,7 +27,7 @@ Obiekt zawiera błędy, jeśli:
 
 - bit kontrolny ma błędną wartość
 
-
+## Objasnienie
 Klasa FileScannerService posiada metodę start(), która przyjmuje w argumentach nazwę pliku wejściowego oraz nazwę pliku wyjściowego.
 Aplikacja zczytuje po 8 bitów z pliku. Jeśli obiekt jest poprawny dodawany jest do listy poprawnych obiektów. Aplikacja nie wczytuje na raz całego pliku, aby nie przetrzymywać w pamięci programu wszystkich obiektów.
 Aplikacja zakłada, że ośmiobitowy obiekt jest błędny, jeśli wiadomość składa się wyłącznie z bitów równych 0 oraz gdy bit kontrolny ma błędną wartość. 
